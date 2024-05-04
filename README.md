@@ -1,2 +1,2 @@
 # JavaTroopers
-OOP project SLIIT CITY UNI 2Year 1Sem
+OOP project SLIIT CITY UNI 1Year 2Sem
