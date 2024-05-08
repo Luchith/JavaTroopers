@@ -110,9 +110,20 @@ public class HomeView extends JFrame {
                 v1.setVisible(true);
             }
         });
+        btnManageEmployee.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                openEmployeeWindow();
+            }
+        });
 //
   }
-
+    private void openEmployeeWindow() {
+        SupplierUI employeeWindow = new SupplierUI();
+        employeeWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        employeeWindow.setVisible(true);
+        dispose();
+    }
 
         public static void main (String[]args){
             HomeView ui = new HomeView();
