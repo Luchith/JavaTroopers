@@ -1,13 +1,13 @@
 package View;
 
 
-import View.ManageInventory.ManageInventory;
-import View.ManageOrder.ManageOrder;
-
-import View.SaleReport.SaleReportView;
 import View.CustomerNotify.cusNotify;
 import View.EMPemail.empEmail;
-
+import View.ManageEmp.ManageEmp;
+import View.ManageInventory.ManageInventory;
+import View.ManageOrder.ManageOrder;
+import View.SaleReport.SaleReportView;
+import View.Supplier.SupplierUI;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -25,6 +25,8 @@ public class HomeView extends JFrame {
     private JButton btnEmployeeNotification;
 
     public HomeView() {
+
+
 
         btnManageOrder.addActionListener(new ActionListener() {
             @Override
@@ -110,6 +112,13 @@ public class HomeView extends JFrame {
                 v1.setVisible(true);
             }
         });
+        btnManageSupplier.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                openSupplierWindow();
+            }
+        });
+
         btnManageEmployee.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -118,12 +127,21 @@ public class HomeView extends JFrame {
         });
 //
   }
+
+    private void openSupplierWindow() {
+        SupplierUI supplierWindow = new SupplierUI();
+        supplierWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        supplierWindow.setVisible(true);
+        dispose();
+    }
+
     private void openEmployeeWindow() {
-        SupplierUI employeeWindow = new SupplierUI();
+        ManageEmp employeeWindow = new ManageEmp();
         employeeWindow.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         employeeWindow.setVisible(true);
         dispose();
     }
+
 
         public static void main (String[]args){
             HomeView ui = new HomeView();

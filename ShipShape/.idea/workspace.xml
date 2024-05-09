@@ -5,44 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa80b161-d508-4033-a8c8-a9cf307bb692" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/ManageEmp/ManageEmp.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/View/ManageEmp/ManageEmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Supplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/Supplier/SupplierUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/View/Supplier/SupplierUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/View/HomeView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/HomeView.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/View/HomeView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/View/HomeView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DBLayer/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBLayer/DataBaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServiceLayer/ManageInventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServiceLayer/ManageInventoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServiceLayer/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServiceLayer/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/CustomerNotify/cusNotify$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/EMPemail/empEmail$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageInventory/ManageInventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/ManageOrder/ManageOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/SaleReport/SaleReportView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/SaleReport/SaleReportView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/SaleReport/SaleReportView$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/SaleReport/SaleReportView$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/View/HomeView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/View/HomeView.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +44,20 @@
     "Application.HomeView.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/sandu/Downloads/JavaTroopers/ShipShape/src/main/java/View",
+    "last_opened_file_path": "C:/Users/krish/Desktop/JavaTroopers/ShipShape/src/main/java/View",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -120,7 +106,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715089042122</updated>
+      <workItem from="1715262587668" duration="440000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
